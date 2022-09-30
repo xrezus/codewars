@@ -42,6 +42,8 @@ func DecodeMorse(morseCode string) string {
 		"---..": "8",
 		"----.": "9",
 		"-----": "0",
+
+		"...---...": "SOS",
 	}
 
 	var decodeWords []string
